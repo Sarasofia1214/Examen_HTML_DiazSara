@@ -9,6 +9,6 @@
  | [Index](index.html) | Se ponen las imagenes y texto a modificar en el css. |
  
 ## Instalación
-Para ver la página ingresa aqui
+Para ver la página ingresa aqui https://sarasofia1214.github.io/Examen_HTML_DiazSara/
 
 ## Realizado por Sara Díaz
