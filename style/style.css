@@ -2,19 +2,26 @@
     font-family: "Font";
     src: url(../font/MYRIADPRO-REGULAR.OTF);
 }
+
+@font-face {
+    font-family: "Font2";
+    src: url(../font/MyriadPro-Light.otf);
+}
+
 html, body{
     margin: 0.1%;
 }
 header{
     padding: 1.5%;
     width: 100%;
-    background-color: #2c5cc4 ;
+    background-color:  #3368c5  ;
     position: fixed;
     display: flex;
     gap: 10%;
     text-align: center;
     align-items: center;
     color: white;
+    
 }
 .header_text{
     font-family: "Font";
@@ -25,6 +32,7 @@ header{
 .header_text2{
     font-family: "Font";
     font-size: 1.6vw; 
+    margin-left: 4vw;
 }
 .img{
     width: 20vw;
@@ -37,15 +45,124 @@ header{
 .header_text4{
     background-color:white;
     width: 10%;
-    height: 2vh;
-    line-height: 2vh;
+    height: 4vh;
+    line-height: 4vh;
     border-radius: 2vw;
     font-family: "Font";
     font-size: 1vw;
     color: black;
+    margin-left: 1vw;
 }
 .background img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+.seccion_login{
+    width: 30vw;
+    height:71vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 19vh;
+    margin-left: 5vw;
+ 
+}
+
+.seccion_login_title{
+    font-size: 2vw;
+    margin-top:2vh;
+    font-family: "Font";
+}
+.seccion_login_text{
+    font-size: 0.5vw;
+    font-family: "Font";
+    margin-top: -3vh;
+}
+.data_login{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    text-align: left;
+    width: 25vw;
+    margin-left: 2.5vw;
+}
+.data_login_text{
+    font-family: "Font1";
+    font-size: 1vw;
+}
+.data_login_gap {
+    padding: 3%;
+    text-align: left;
+    border-radius: 3%;
+    border: 1px solid black;
+    border-radius: ;
+    position: relative;
+    font-family: "Font";
+    color: gray;
+}
+.data_login_text2{
+    font-family: "Font1";
+    font-size: 1vw;
+}
+.data_login_gap2{
+    height: 4%;
+    border-color: 2px solid black;
+    height: 4vh;
+    background-color:rgb(213, 213, 213);
+}
+.data_login_text3{
+    font-family: "Font1";
+    font-size: 1vw;
+}
+.data_login_gap3{
+   
+    border-color: 2px solid black;
+    height: 4vh;
+    background-color:rgb(213, 213, 213);
+}
+.data_login_text4{
+    font-family: "Font1";
+    font-size: 1vw;
+}
+.data_login_gap4{
+   
+    border-color: 2px solid black;
+    height: 4vh;
+    background-color:rgb(213, 213, 213);
+}
+.data_login_text5{
+    font-family: "Font1";
+    font-size: 1vw;
+}
+.data_login_gap5{
+    padding: 3%;
+    font-family: "Font";
+    color: gray;
+    border-color: 2px solid black;
+    border: 4px solid black;
+}
+.data_login_text6{
+    font-family: "Font1";
+    font-size: 1vw;
+}
+.data_login_gap6{
+    padding: 3%;
+    border-color: 2px solid black;
+    background-color:rgb(213, 213, 213);
+}
+.consultar{
+    background-color: #3368c5;
+    width: 10vw;
+    text-align: center;
+    color:white;
+    height: 3vh;
+    border-radius: 10vw;
+    line-height: 3vh;
+    margin-left: 8vw;
+    font-family: "Font2";
 }
